@@ -24,7 +24,7 @@ body {
 }
 
 .banner-content {
-  padding: 2rem;
+  padding: 0 1.5rem;
   position: absolute;
   width: 100%;
   bottom: 1rem;
@@ -34,15 +34,18 @@ body {
 }
 
 h2 {
-  background-color: rgba(0, 0, 0, .5);
-  font-family: "Open Sans", bold;
+  margin: 0 0 1rem;
   font-size: 4rem;
-  color: #fff;
   line-height: 1.4;
 }
 
+.banner-title span {
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+}
+
 p {
-  font-family: "Open Sans", italic;
   font-style: italic;
   font-size: 2rem;
+  margin: 0;
 }
