@@ -6,3 +6,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h2 {
+  font-family: 'Open Sans', bold;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Open Sans', italic;
+  font-size: 2rem;
+}
