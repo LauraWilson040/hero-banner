@@ -11,38 +11,34 @@ body {
   margin: 0;
 }
 
-img {
-  position: absolute;
-  max-height: 500px;
-}
-
 .img-flex {
-  display: flex;
+  display: block;
   width: 100%;
 }
 
 .banner {
   position: relative;
+  max-height: 500px;
 }
 
 .banner-content {
   padding: 0 1rem;
   position: absolute;
+  width: 100%;
   bottom: 1rem;
-  overflow: hidden;
-  left: auto;
+  max-width: 50em;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 h2 {
   background-color: rgba(0, 0, 0, .5);
   font-family: "Open Sans", bold;
   font-size: 4rem;
-  min-width: 50em;
   color: #fff;
 }
 
 p {
   font-family: "Open Sans", italic;
   font-size: 2rem;
-  min-width: 50em;
 }
