@@ -17,6 +17,10 @@ img {
   width: 100%;
 }
 
+.banner {
+  position: fixed;
+}
+
 h2 {
   background-color: rgba(0, 0, 0, .5);
   font-family: 'Open Sans', bold;
