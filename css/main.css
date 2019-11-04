@@ -18,7 +18,13 @@ img {
 }
 
 .banner {
-  position: fixed;
+  position: relative;
+}
+
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
 }
 
 h2 {
