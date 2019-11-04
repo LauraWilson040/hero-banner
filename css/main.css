@@ -7,11 +7,18 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
+img {
+  position: absolute;
   max-height: 500px;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 h2 {
+  background-color: rgba(0, 0, 0, .5);
   font-family: 'Open Sans', bold;
   font-size: 4rem;
   min-width: 50em;
