@@ -1,10 +1,14 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+
 }
 
 img {
@@ -25,18 +29,21 @@ img {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+  overflow: hidden;
+  float: left;
+  transform: translate(-50%);
 }
 
 h2 {
   background-color: rgba(0, 0, 0, .5);
-  font-family: 'Open Sans', bold;
+  font-family: "Open Sans", bold;
   font-size: 4rem;
   min-width: 50em;
   color: #fff;
 }
 
 p {
-  font-family: 'Open Sans', italic;
+  font-family: "Open Sans", italic;
   font-size: 2rem;
   min-width: 50em;
 }
