@@ -13,11 +13,11 @@ body {
 
 img {
   position: absolute;
-  display: flex;
   max-height: 500px;
 }
 
 .img-flex {
+  display: flex;
   width: 100%;
 }
 
